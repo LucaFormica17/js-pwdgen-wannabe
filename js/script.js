@@ -7,6 +7,6 @@ console.log(surname);
 let fav_clr = prompt('Colore preferito');
 console.log(fav_clr);
 
-document.getElementById("password").innerHTML = `${name}`+`${surname}`+`${fav_clr}`+'23';
+document.getElementById("password").innerHTML = `${name} + ${surname} + ${fav_clr} + '23'`;
 
 
